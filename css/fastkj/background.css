@@ -3,11 +3,6 @@
   padding: 3px 1px;
 }
 
-@media screen and (max-width: 768px) {
-.layout {
-    padding: 20px 5px;
-}
-}
 #article-container .flink .flink-list {
   overflow: auto;
   padding: 0px 0px 0;
