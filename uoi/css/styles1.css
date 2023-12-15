@@ -1,0 +1,244 @@
+/* 搜索开始 */
+body {
+  background-color: #f7f9fe
+}
+
+/* 定义搜索框样式 */
+.search-box {
+  position: relative;
+  display: flex;
+  margin: 20px auto;
+  width: 90%;
+}
+
+.search-box input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #fdfdfd;
+  font-size: 16px;
+  color: #333;
+  /* 添加一个轻微的内阴影来增加深度感 */
+  box-shadow: inset 1px 1px 2px #B1B1B1, inset -1px -1px 2px #FFFFFF;
+}
+
+.search-box button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 15px;
+  background-color: #f0f4fb;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  /* 添加一个轻微的内阴影来增加深度感 */
+  box-shadow: inset 1px 1px 2px #B1B1B1, inset -1px -1px 2px #FFFFFF;
+}
+
+
+
+/* 随机 */
+.color-circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+/* 定义按钮样式 */
+.btn {
+  display: inline-block;
+  padding: 10px 13px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  margin: 10px 7px;
+}
+
+/* 外边框 */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2px;
+  border-radius: 10px;
+  margin-top: 25px;
+  text-align: left;
+}
+
+/* 定义新的背景颜色类 */
+.bg-color1 {
+  background-color: #e3fae9;
+}
+
+.bg-color2 {
+  background-color: #ffdfd4;
+}
+
+.bg-color3 {
+  background-color: #f9ddf7;
+}
+.bg-color4 {
+  background-color: #c6e7ff;
+}
+.bg-color5 {
+  background-color: #fffec6;
+}
+/* 分类标题 */
+.title-with-line {
+  position: relative;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  margin-top: 18px;
+  text-align: left;
+  font-size: 15px;
+  font-family: 'Zen Maru Gothic', Arial, sans-serif;
+  color: rgb(118, 118, 118);
+}
+
+.title-with-line h3 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding-left: 10px;
+}
+/* 主页css结束 */
+
+
+/* 弹窗样式 */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.mylist {
+  list-style-type: none;
+  padding: 0;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 3000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4); /* 半透明背景 */
+}
+
+.modal-content {
+  background: linear-gradient(to bottom right, #e5efff, #ffd2d2, #b1ffb4);
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  height: 70%;
+  margin-top: 5%;
+  border-radius: 10px; /* 圆角边框 */
+}
+
+.close {
+  color: #fff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #ddd;
+  
+}
+/* 外边框 */
+#userCode {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #fdfdfd;
+  font-size: 16px;
+  color: #333;
+  box-shadow: inset 1px 1px 2px #B1B1B1, inset -1px -1px 2px #FFFFFF;
+  box-sizing: border-box;
+  margin-top: 50%;
+}
+
+
+/* 创建一个新的类 .myButton */
+.myButton {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #fdfdfd;
+  font-size: 16px;
+  color: #333;
+  box-shadow: inset 1px 1px 2px #B1B1B1, inset -1px -1px 2px #FFFFFF;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+
+.h1, h1 {
+  display: block;
+  font-size: 1.8em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center; /* 将文字居中 */
+}
+
+.h2, h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 12px;
+  margin-top: 30px;
+}
+/* 弹窗样式结束 */
+
+
+/* 手机样式 */
+@media screen and (max-width: 767px) {
+  .button-container {
+      text-align: center;
+      margin-top: auto;
+      margin-top: 15px;
+      
+      
+  }
+  
+  .modal-content {
+      background: linear-gradient(to bottom right, #eee5ff, #ffd2d2, #b1ffb4);
+      margin: 15% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      height: 60%;
+      border-radius: 10px;
+      margin-top: 30%;
+  }
+  #userCode {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #fdfdfd;
+    font-size: 16px;
+    color: #333;
+    box-shadow: inset 1px 1px 2px #B1B1B1, inset -1px -1px 2px #FFFFFF;
+    box-sizing: border-box;
+    margin-top: 30%;
+  }
+}

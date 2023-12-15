@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom right, #87cfeb00, rgba(95, 158, 160, 0));
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* 透明的白色背景 */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* 阴影效果 */
+}
+
+h1 {
+    color: #4682B4; /* 深蓝色标题 */
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #87CEEB; /* 浅蓝色边框 */
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4682B4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#message {
+    color: red;
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.mylist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 3000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); /* 半透明背景 */
+}
+
+.modal-content {
+    background: linear-gradient(to bottom right, #e5efff, #ffd2d2, #b1ffb4);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    height: 70%;
+    border-radius: 10px; /* 圆角边框 */
+}
+
+
+
+.close {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #ddd;
+    
+}
+
+#userCode {
+    background: linear-gradient(to bottom right, #d1d9e6, #d1d9e6,#f9f9f9, );
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #fcfdff; /* 黑色边框 */
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-top: 50%;
+
+}
+
+
+button {
+    background-color: #ffffff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 0px; /* 距离顶部的间距 */
+}
+
+
+
+.h1, h1 {
+    display: block;
+    font-size: 1.8em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center; /* 将文字居中 */
+}
+
+.h2, h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    
+}
+
+
+
+/* 手机样式 */
+@media screen and (max-width: 767px) {
+    .button-container {
+        text-align: center;
+        margin-top: auto;
+    }
+
+
+
+    .modal-content {
+        background: linear-gradient(to bottom right, #eee5ff, #ffd2d2, #b1ffb4);
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        height: 60%;
+        border-radius: 10px;
+        margin-top: 30%;
+    }
+    #userCode {
+        background: linear-gradient(to bottom right, #d1d9e6, #d1d9e6,#f9f9f9, );
+        width: 100%;
+        padding: 10px 15px;
+        margin-bottom: 10px;
+        border: 1px solid #3a67ee; /* 黑色边框 */
+        border-radius: 50px;
+        box-sizing: border-box;
+        margin-top: 40%;
+    }
+}
