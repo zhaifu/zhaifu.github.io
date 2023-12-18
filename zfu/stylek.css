@@ -27,6 +27,7 @@ body {
     width: 30%;
     height: 70%;
     border-radius: 10px; /* 圆角边框 */
+    
 }
 
 
@@ -59,7 +60,7 @@ body {
 
 button {
     background-color: #ffffff;
-    color: white;
+    color: rgb(36, 36, 36);
     padding: 10px 15px;
     border: none;
     border-radius: 50px;
